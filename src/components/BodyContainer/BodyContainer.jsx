@@ -1,6 +1,6 @@
 import React from 'react'
 import './BodyContainer.css'
-import Category from '../Category/category'
+import Category from '../Category/Category'
 
 function BodyContainer({tickets, users}) {
 
