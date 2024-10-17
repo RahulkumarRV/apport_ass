@@ -24,8 +24,10 @@ const Card = ({ id, iconSrc, title, dots, footerIcon, footerText }) => {
       {/* Third Row */}
       <div className="third-row">
         <span className="card-dots">{dots}</span>
-        <span className='card-icon'>{footerIcon}</span>
-        <span className="card-footer-text">{footerText}</span>
+        <div>
+          <span className='card-icon'>{footerIcon}</span>
+          <span className="card-footer-text">{footerText}</span>
+        </div>
       </div>
     </div>
   );

@@ -1,29 +1,37 @@
 .filtercard-container {
-  width: 250px;
+  width: 100px;
   height: auto;
   border-radius: 10px;
   border: 1px solid 1px solid rgba(223, 223, 223);
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 10px 20px;
+  padding: 5px 5px;
   position: absolute;
   top: 70%;
-  left: 70%; 
+  left: 20%; 
   min-width: 150px;
   z-index: 1;
+  cursor: pointer;
 }
 
 .filter-left-part {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .filter-right-part {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.filter-right-part > p{
+  font-size: 12px;
+}
+.filter-left-part > p{
+  font-size: 12px;
 }
 
 .filtercard-container .filter-box {
@@ -33,10 +41,10 @@
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(223, 223, 223);
   border-radius: 5px;
-  width: 125px;
+  width: 100px;
   color: #242424;
-  margin-left: 50px;
-  height: 30px;
+  margin-left: 10px;
+  height: 10px;
 }
 
 .filtercard-container .icon {
@@ -45,8 +53,40 @@
 }
 
 .filtercard-container .filter-text {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   text-align: center;
   flex-grow: 1;
+}
+
+.dropdown {
+  position: absolute; /* Position dropdown absolutely */
+  background-color: white; /* Background color */
+  border: 1px solid #ccc; /* Optional border */
+  z-index: 1000; /* Ensure dropdown appears above other elements */
+}
+
+.dropdown div {
+  padding: 5px; /* Space inside dropdown items */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.dropdown div:hover {
+  background-color: #f0f0f0; /* Hover effect */
+}
+
+.submenu{
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid 1px solid rgba(223, 223, 223);
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  position: absolute;
+  top: 0%;
+  left: 90%; 
+  z-index: 1;
+  font-size: 15px;
+  cursor: pointer;
 }
