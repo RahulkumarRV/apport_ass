@@ -1,9 +1,5 @@
 import React, {useEffect, useState} from 'react';
 
-import Card from "./components/Card/Card.jsx";
-import Category from "./components/Category/category.jsx";
-import FilterCard from "./components/FilterCard/FilterCard.jsx";
-import Header from "./components/Header/Header.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx"
 import BodyContainer from "./components/BodyContainer/BodyContainer.jsx";
 
