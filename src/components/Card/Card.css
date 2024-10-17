@@ -1,0 +1,75 @@
+.card {
+  width: 320px;
+  max-height: 300px;
+  border-radius: 10px;
+  border: 1px solid 1px solid rgba(223, 223, 223);
+  background-color: #fff;
+  padding: 12px 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-row .card-id {
+  font-size: 14px;
+  color: #5c5b5b;
+  font-weight: 400;
+}
+
+.first-row .card-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.second-row .card-title {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+
+.third-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.third-row .card-dots {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #b8b8b8;
+  margin-top: -10px;
+  margin-right: 20px;
+}
+
+.third-row .card-icon {
+  display: inline-flex;         /* Use flexbox to center content */
+  align-items: center;          /* Vertically center the content */
+  justify-content: center;      /* Horizontally center the content */
+  width: 15px;                  /* Adjust width as needed */
+  height: 15px;                 /* Adjust height as needed */
+  background-color: #bebebe;    /* Set your desired background color */
+  border-radius: 50%;           /* Makes it circular */
+  margin-right: 5px;            /* Spacing on the right */
+  font-size: 12px;              /* Adjust font size if it's a font-based icon */
+  line-height: 0;               /* Ensures the text height doesn't interfere */
+}
+
+
+
+.third-row .card-footer-text {
+  font-size: 14px;
+  color: #777;
+}

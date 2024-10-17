@@ -1,0 +1,35 @@
+.header-container {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+.left-part span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #535353;
+}
+
+.left-part .icon {
+  width: 14px;
+  height: 14px;
+}
+
+.right-part {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-part .icon {
+  width: 18px;
+  height: 18px;
+}
